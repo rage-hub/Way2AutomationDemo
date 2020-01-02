@@ -2,28 +2,28 @@
 <testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
   <reporter-output>
   </reporter-output>
-  <suite name="RegressionSuite" duration-ms="32145" started-at="2019-12-25T23:53:50 IST" finished-at="2019-12-25T23:54:22 IST">
+  <suite name="Default suite" duration-ms="26012" started-at="2020-01-02T20:27:05 IST" finished-at="2020-01-02T20:27:31 IST">
     <groups>
     </groups>
-    <test name="WayTwoAutomation" duration-ms="32145" started-at="2019-12-25T23:53:50 IST" finished-at="2019-12-25T23:54:22 IST">
+    <test name="Default test" duration-ms="26012" started-at="2020-01-02T20:27:05 IST" finished-at="2020-01-02T20:27:31 IST">
       <class name="com.way2automationsitedemo.WayTwoAutomation">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.way2automationsitedemo.WayTwoAutomation@65e2dbf3]" name="launchBrowser" duration-ms="19505" started-at="2019-12-25T23:53:50 IST" finished-at="2019-12-25T23:54:10 IST">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.way2automationsitedemo.WayTwoAutomation@65e2dbf3]" name="launchBrowser" duration-ms="17271" started-at="2020-01-02T20:27:05 IST" finished-at="2020-01-02T20:27:22 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="launchApplication()[pri:1, instance:com.way2automationsitedemo.WayTwoAutomation@65e2dbf3]" name="launchApplication" duration-ms="6612" started-at="2019-12-25T23:54:10 IST" finished-at="2019-12-25T23:54:16 IST">
+        <test-method status="PASS" signature="launchApplication()[pri:1, instance:com.way2automationsitedemo.WayTwoAutomation@65e2dbf3]" name="launchApplication" duration-ms="5684" started-at="2020-01-02T20:27:22 IST" finished-at="2020-01-02T20:27:28 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="signInApp()[pri:2, instance:com.way2automationsitedemo.WayTwoAutomation@65e2dbf3]" name="signInApp" duration-ms="5228" started-at="2019-12-25T23:54:16 IST" finished-at="2019-12-25T23:54:22 IST">
+        <test-method status="PASS" signature="signInApp()[pri:2, instance:com.way2automationsitedemo.WayTwoAutomation@65e2dbf3]" name="signInApp" duration-ms="2406" started-at="2020-01-02T20:27:28 IST" finished-at="2020-01-02T20:27:30 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInApp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:3, instance:com.way2automationsitedemo.WayTwoAutomation@65e2dbf3]" name="closeBrowser" duration-ms="595" started-at="2019-12-25T23:54:22 IST" finished-at="2019-12-25T23:54:22 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:3, instance:com.way2automationsitedemo.WayTwoAutomation@65e2dbf3]" name="closeBrowser" duration-ms="462" started-at="2020-01-02T20:27:30 IST" finished-at="2020-01-02T20:27:31 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.way2automationsitedemo.WayTwoAutomation -->
-    </test> <!-- WayTwoAutomation -->
-  </suite> <!-- RegressionSuite -->
+    </test> <!-- Default test -->
+  </suite> <!-- Default suite -->
 </testng-results>

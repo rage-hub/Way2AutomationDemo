@@ -18,8 +18,16 @@ public class WayTwoAutomation {
 
 	@Test(priority = 0, enabled = true)
 	public void launchBrowser() {
-
-		System.setProperty("webdriver.chrome.driver","K://SeleniumMavenProject//Way2AutomationDemo//browserdriver//chromedriver.exe");
+		String path = System.getProperty("user.dir");
+		String driverPath = path + ".\\browserdriver\\chromedriver.exe";
+		System.setProperty("webdriver.chrome.driver", driverPath);
+		
+		/*
+		 * String driverPath=
+		 * "K://SeleniumMavenProject//Way2AutomationDemo//browserdriver//chromedriver.exe";
+		 * System.setProperty("webdriver.chrome.driver", driverPath);
+		 */
+		
 		driver = new ChromeDriver();
 		driver.manage().window().maximize();
 		driver.manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
