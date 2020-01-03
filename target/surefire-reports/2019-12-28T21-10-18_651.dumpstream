@@ -1,4 +1,0 @@
-# Created at 2019-12-28T21:10:21.287
-Boot Manifest-JAR contains absolute paths in classpath 'K:\SeleniumMavenProject\Way2AutomationDemo\target\test-classes'
-Hint: <argLine>-Djdk.net.URLClassPath.disableClassPathURLCheck=true</argLine>
-

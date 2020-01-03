@@ -1,29 +1,45 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="4" passed="4">
+<testng-results skipped="0" failed="0" ignored="2" total="9" passed="7">
   <reporter-output>
   </reporter-output>
-  <suite name="RegressionSuite" duration-ms="39273" started-at="2019-12-28T21:10:35 IST" finished-at="2019-12-28T21:11:14 IST">
+  <suite name="RegressionSuite" duration-ms="46991" started-at="2020-01-03T15:12:57 IST" finished-at="2020-01-03T15:13:44 IST">
     <groups>
     </groups>
-    <test name="WayTwoAutomation" duration-ms="39273" started-at="2019-12-28T21:10:35 IST" finished-at="2019-12-28T21:11:14 IST">
+    <test name="WayTwoAutomation" duration-ms="17001" started-at="2020-01-03T15:12:57 IST" finished-at="2020-01-03T15:13:14 IST">
       <class name="com.way2automationsitedemo.WayTwoAutomation">
-        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.way2automationsitedemo.WayTwoAutomation@f6c48ac]" name="launchBrowser" duration-ms="30493" started-at="2019-12-28T21:10:35 IST" finished-at="2019-12-28T21:11:06 IST">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.way2automationsitedemo.WayTwoAutomation@6eebc39e]" name="launchBrowser" duration-ms="10086" started-at="2020-01-03T15:12:57 IST" finished-at="2020-01-03T15:13:07 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchBrowser -->
-        <test-method status="PASS" signature="launchApplication()[pri:1, instance:com.way2automationsitedemo.WayTwoAutomation@f6c48ac]" name="launchApplication" duration-ms="4221" started-at="2019-12-28T21:11:06 IST" finished-at="2019-12-28T21:11:10 IST">
+        <test-method status="PASS" signature="launchApplication()[pri:1, instance:com.way2automationsitedemo.WayTwoAutomation@6eebc39e]" name="launchApplication" duration-ms="5901" started-at="2020-01-03T15:13:08 IST" finished-at="2020-01-03T15:13:13 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- launchApplication -->
-        <test-method status="PASS" signature="signInApp()[pri:2, instance:com.way2automationsitedemo.WayTwoAutomation@f6c48ac]" name="signInApp" duration-ms="3706" started-at="2019-12-28T21:11:10 IST" finished-at="2019-12-28T21:11:14 IST">
+        <test-method status="PASS" signature="signInApp()[pri:2, instance:com.way2automationsitedemo.WayTwoAutomation@6eebc39e]" name="signInApp" duration-ms="818" started-at="2020-01-03T15:13:13 IST" finished-at="2020-01-03T15:13:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- signInApp -->
-        <test-method status="PASS" signature="closeBrowser()[pri:3, instance:com.way2automationsitedemo.WayTwoAutomation@f6c48ac]" name="closeBrowser" duration-ms="607" started-at="2019-12-28T21:11:14 IST" finished-at="2019-12-28T21:11:14 IST">
+        <test-method status="PASS" signature="closeBrowser()[pri:3, instance:com.way2automationsitedemo.WayTwoAutomation@6eebc39e]" name="closeBrowser" duration-ms="142" started-at="2020-01-03T15:13:14 IST" finished-at="2020-01-03T15:13:14 IST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- closeBrowser -->
       </class> <!-- com.way2automationsitedemo.WayTwoAutomation -->
     </test> <!-- WayTwoAutomation -->
+    <test name="ToolsQADemoSite" duration-ms="29660" started-at="2020-01-03T15:13:15 IST" finished-at="2020-01-03T15:13:44 IST">
+      <class name="com.toolsqademosite.ToolsQADemo">
+        <test-method status="PASS" signature="launchBrowser()[pri:0, instance:com.toolsqademosite.ToolsQADemo@5cb9f472]" name="launchBrowser" duration-ms="13412" started-at="2020-01-03T15:13:15 IST" finished-at="2020-01-03T15:13:28 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- launchBrowser -->
+        <test-method status="PASS" signature="Resizable()[pri:3, instance:com.toolsqademosite.ToolsQADemo@5cb9f472]" name="Resizable" duration-ms="16131" started-at="2020-01-03T15:13:28 IST" finished-at="2020-01-03T15:13:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- Resizable -->
+        <test-method status="PASS" signature="terminateBrowser()[pri:4, instance:com.toolsqademosite.ToolsQADemo@5cb9f472]" name="terminateBrowser" duration-ms="113" started-at="2020-01-03T15:13:44 IST" finished-at="2020-01-03T15:13:44 IST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- terminateBrowser -->
+      </class> <!-- com.toolsqademosite.ToolsQADemo -->
+    </test> <!-- ToolsQADemoSite -->
   </suite> <!-- RegressionSuite -->
 </testng-results>
