@@ -16,9 +16,10 @@ public class ToolsQADemo {
 
 	@Test(priority=0)
 	public void launchBrowser() {
-
-		String driverPath = "D://SeleniumMavenProject//Way2AutomationDemo//Browser_Driver//chromedriver.exe";
+		String path = System.getProperty("user.dir");
+		String driverPath = path + ".\\browserdriver\\chromedriver.exe";
 		System.setProperty("webdriver.chrome.driver", driverPath);
+		
 		driver = new ChromeDriver();
 		String appUrl="https://demoqa.com/";
 		driver.get(appUrl);
